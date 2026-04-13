@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           ),
                           Positioned(
-                            top: 0,
+                            top: -10,
                             child: Container(
                               width: 200,
                               height: 200,
@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           ),
                           Positioned(
-                            bottom: 12,
+                            bottom: 19,
                             right: 12,
                             child: Container(
                                 width: 34,
@@ -112,10 +112,10 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.fromLTRB(16, 14, 16, 0),
+                      padding: const EdgeInsets.fromLTRB(16, 50, 16, 0),
                       child: Container(
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 10, vertical: 6),
+                            horizontal: 10, vertical: 10),
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(20),
@@ -139,7 +139,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               child: const Icon(Icons.home,
                                   color: Colors.white, size: 12),
                             ),
-                            const SizedBox(width: 7),
+                            const SizedBox(width: 10),
                             const Text('Uttora Coffe House',
                                 style: TextStyle(
                                     fontSize: 13,
