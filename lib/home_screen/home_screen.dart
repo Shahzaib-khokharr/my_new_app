@@ -74,10 +74,11 @@ class _HomeScreenState extends State<HomeScreen> {
                               decoration: const BoxDecoration(
                                 shape: BoxShape.circle,
                               ),
-                              child: const Center(
-                                child: Text('🍕',
-                                    style: TextStyle(fontSize: 110)),
+                              child: Center(
+                              child: Image(
+                                image: const AssetImage('assets/pizza.png'),
                               ),
+                            ),
                             ),
                           ),
                           Positioned(
