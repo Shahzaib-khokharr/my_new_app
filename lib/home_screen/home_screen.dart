@@ -12,8 +12,6 @@ class _HomeScreenState extends State<HomeScreen> {
   int quantity = 2;
   bool isFavorite = false;
 
-  final List<String> sizes = ['10"', '14"', '16"'];
-  final List<String> ingredientEmojis = ['🥚', '🥩', '🌿', '🍅', '🧀'];
 
    @override
   Widget build(BuildContext context) {
